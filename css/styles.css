@@ -1,0 +1,50 @@
+#titulo {
+    text-align: center;
+    color: black;
+    background-color: rgb(215, 233, 238);
+    padding: 12px;
+}
+#principal{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(34, 37, 218);
+    color: darkblue;
+    font-style: bold;
+}
+article p{
+    padding: 12px;
+}
+#faculdade{
+    font-size: 40px;
+}
+mark{
+    background-color: rgb(22, 118, 163);
+    /*text-decoration: underline darkblue;*/
+    color:white;
+}
+li{
+    background-color: aliceblue;
+    padding: 5px;
+    border: 1px dashed black;
+    margin-right: 900px;
+    margin-left: 24px;
+}
+#site.aviso{
+    text-align: center;
+}
+p#explicacao{
+    color:lightslategrey;
+}
+.final-pagina{
+    padding: 12px;
+    border-bottom: #CCC 1px solid;
+    
+}
+body > article > .descricao#explicacao{
+    padding: 12px;
+    border-bottom: rgb(22, 118, 163) 1px solid;
+    font-weight: bold;
+
+}
+#imagem,#autor{
+    text-align: center;
+}
