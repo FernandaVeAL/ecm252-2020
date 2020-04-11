@@ -2,49 +2,106 @@
     text-align: center;
     color: black;
     background-color: rgb(215, 233, 238);
-    padding: 12px;
+    padding: 1%;
 }
 #principal{
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid rgb(34, 37, 218);
     color: darkblue;
     font-style: bold;
-}
-article p{
-    padding: 12px;
+    padding: 5%;
 }
 #faculdade{
-    font-size: 40px;
+    font-size: 400%;
 }
 mark{
     background-color: rgb(22, 118, 163);
     /*text-decoration: underline darkblue;*/
     color:white;
 }
-li{
-    background-color: aliceblue;
-    padding: 5px;
-    border: 1px dashed black;
-    margin-right: 900px;
-    margin-left: 24px;
-}
-#site.aviso{
+
+.aviso{
     text-align: center;
 }
 p#explicacao{
     color:lightslategrey;
 }
 .final-pagina{
-    padding: 12px;
     border-bottom: #CCC 1px solid;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#imagem.final-pagina{
+    display: block;
+    max-width: 10%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 body > article > .descricao#explicacao{
-    padding: 12px;
     border-bottom: rgb(22, 118, 163) 1px solid;
     font-weight: bold;
 
 }
-#imagem,#autor{
+aside > img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#autor{
     text-align: center;
 }
+.caracteristica{
+    margin: 0;
+    background-color: aliceblue;
+    padding: 0.5%;
+    border: 1px dashed black;
+    width: 40%; 
+    max-height: 10%;
+    
+
+}
+.comeco-pagina{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    padding: 5%;
+    
+}
+.engenharia, .administracao, .design {
+    display: inline-block; 
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    
+}
+@media (max-width: 450px){
+    
+    .engenharia, .administracao, .design{
+         width: 100%;
+    }
+}
+@media(max-width: 700px){
+    .caracteristica{
+      width: 100%;
+    }
+    #listagem{
+        box-sizing: content-box;
+        min-height: 10%;
+        padding-inline-start: 2.5%;
+    }
+
+}
+
