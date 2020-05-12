@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jogadores">
+            <div class="jogador0">
+                <p class="nome-jogador">Jogador1</p>
+                <div class="pontuacao-global" id="pontuacao-global-0"></div>
+                <div class="caixa-pontuacao-rodada-0">
+                    <p>Pontuação da rodada</p>
+                    <div class="pontuacao-rodada-0" id="pontuacao-rodada-0"></div>
+                </div>
+            </div>
+            <div class="jogador1">
+                <p class="nome-jogador">Jogador2</p>
+                <div class="pontuacao-global" id="pontuacao-global-1"></div>
+                <div class="caixa-pontuacao-rodada-1">
+                    <p>Pontuação da rodada</p>
+                    <div class="pontuacao-rodada-1" id="pontuacao-rodada-1"></div>
+                </div>
+            </div>
+            <div class="botoes">
+                <button class="botao lancar-dado" id="botao-lancar-dado" type="butto">Lançar Dado</button>
+                <button class="botao passar-vez" id="botao-passar-vez" type="butto">Passar Vez</button>
+                <button class="botao novo-jogo" id="botao-novo-jogo" type="butto">Novo Jogo</button>
+            </div>
+        </div>
+    </div>
+    <div id="GanhadorModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Vencedor!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="inline-block"> </div>
+                    <p>O Jogador
+                        <span id="numero-do-ganhador"></span> ganhou!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="botao-modal-reiniciar"
+                        data-dismiss="modal">Reiniciar?</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
