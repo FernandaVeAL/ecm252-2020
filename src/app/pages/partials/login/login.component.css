@@ -1,0 +1,15 @@
+form input {
+    border-radius: 20px;
+    height: 3vh;
+}
+
+form .form-check {
+    color: white;
+}
+
+form .btn {
+    border: white 1px solid;
+    border-radius: 60px;
+    margin-left: 6px;
+    margin-top: 1px;
+}

@@ -1,0 +1,31 @@
+.container {
+    background-color: rgba(43, 146, 206, 1.0);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.container .navbar .container .nav-link {
+    color: white;
+    background-color: rgba(43, 146, 206, 0.533);
+}
+
+.container .navbar .container #page-link :hover {
+    color: rgba(43, 146, 206, 0.533);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container .navbar .container #page-link :active {
+    color: white;
+    background-color: rgba(43, 146, 206, 0.533);
+}
+
+.container .navbar .container .form {
+    display: none;
+}
+
+.container .navbar .container .form :active {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
