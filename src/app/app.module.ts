@@ -9,6 +9,7 @@ import { SugestoesComponent } from './pages/sugestoes/sugestoes.component';
 import { LoginComponent } from './pages/partials/login/login.component';
 import { ListaCursosComponent } from './pages/partials/lista-cursos/lista-cursos.component';
 import { ListaProfessoresComponent } from './pages/partials/lista-professores/lista-professores.component';
+import { FormCursosComponent } from './pages/partials/form-cursos/form-cursos.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ListaProfessoresComponent } from './pages/partials/lista-professores/li
     LoginComponent,
     ListaCursosComponent,
     ListaProfessoresComponent,
+    FormCursosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

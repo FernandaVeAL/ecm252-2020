@@ -29,3 +29,23 @@
     position: absolute;
     z-index: 1;
 }
+
+.imagem_centro {
+    height: 270px;
+    background-image: url("../assets/img/campus-sao-caetano-sul-2-061120.png");
+    background-size: 100% 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: start;
+    padding: 2rem 1rem 1rem 3rem;
+    font-weight: 1000;
+    background: -webkit-linear-gradient(#9f2fff, #0bb1d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+}
