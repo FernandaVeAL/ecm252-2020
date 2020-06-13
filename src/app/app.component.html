@@ -30,13 +30,21 @@
                             <a class="nav-link" routerLink="/sugestoes">Sugestões</a>
                         </li>
                         <li class="nav-item" id="page-link">
-                            <a class="nav-link" routerLink="#">Portal</a>
+                            <a class="nav-link" routerLink="/alunos">Alunos</a>
+                        </li>
+                        <li class="nav-item" id="page-link">
+                            <a class="nav-link" (click)="clickEvent()">Portal
+
+                                <app-login class="status" [ngClass]="status ? 'click' : 'noclick'"></app-login>
+
+                            </a>
+
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- <app-login></app-login> -->
+
     </div>
 
 
